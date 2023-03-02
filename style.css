@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+}
+.container-fluid {
+    border-radius:5px;
+    width:95%;
+    max-width:800px;
+    background-color:black;
+}
+.quotes > div {
+    background-color:white;
+    padding:10px;
+    border-radius:5px;
+    margin:20px 5px 20px 5px;
+    width:60%;
+
+    font-style:italic;
+    text-align:center;
+}
+.quotes > div:nth-child(odd) {
+    margin-right:auto;
+}
+.quotes > div:nth-child(even) {
+    margin-left:auto;
+}
