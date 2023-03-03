@@ -12,7 +12,7 @@ body {
     padding:10px;
     border-radius:5px;
     margin:20px 5px 20px 5px;
-    width:60%;
+    width:65%;
 
     font-style:italic;
     text-align:center;
@@ -22,4 +22,16 @@ body {
 }
 .quotes > div:nth-child(even) {
     margin-left:auto;
+}
+.quotes > div > .title {
+    font-size:small;
+    display:block;
+}
+img {
+    display:block;
+    margin:auto;
+    max-width:95%;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
 }
